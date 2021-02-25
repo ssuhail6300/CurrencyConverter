@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="converter.css">
+    <title>CurrencyConverter</title>
+</head>
+<body>
+    <div class="app">
+        <div class="converter">
+          <h2>Current Rate : <span class="exchange-rate"></span></h2>
+          <div class="labels">
+            <label for="rupee">₹ (in Cr):</label>
+            <input type="number" class="rupee input" maxlength="10" value="0" >
+          </div>
+          <br/> <br/>
+          <div class="labels">
+            <label for="dollar">$ (in M):</label>
+            <input type="number" class="dollar input" maxlength="10" value="0">
+          </div>
+          <br/>
+          </div>
+    </div>
+</body>
+<script src="convert.js"></script>
+</html>
